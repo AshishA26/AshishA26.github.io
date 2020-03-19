@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   padding-left: 80px;
   margin: 0 0 10px 0;
-  font-size: 60px;
+  font-size: 4vw;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero p span {
   color: #149ddd;
   text-align: center;
-  font-size: 110px;
+  font-size: 7vw;
   font-family: Arial;
 }
 
