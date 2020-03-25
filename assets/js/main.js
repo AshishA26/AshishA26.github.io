@@ -9,6 +9,8 @@
 
   // Hero typed
   var typed_strings = $(".typed").data('typed-items');
+  //split the different words by a comma so it knows what words
+  //to display at different times
   typed_strings = typed_strings.split(',')
   new Typed('.typed', {
     strings: typed_strings,
