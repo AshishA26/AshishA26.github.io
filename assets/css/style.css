@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
 
@@ -342,6 +342,15 @@ section {
   margin-bottom: 0;
 }
 
+.box {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+p.breakBefore{margin-top:2em;}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -393,8 +402,10 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
+.tab { margin-left: 40px; }
+
 .skills .progress {
   height: 50px;
   display: block;
@@ -914,7 +925,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: #3d393d;
+  color: #777777;
   font-size: 14px;
   position: fixed;
   left: 0;
@@ -932,7 +943,7 @@ section {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #3d393d;
+  color: #777777;
 }
 
 @media (max-width: 1199px) {
