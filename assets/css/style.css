@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 220px;
+  width: 300px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -421,12 +421,12 @@ p.breakBefore{margin-top:2em;}
 }
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Poppins", sans-serif;
   color: #050d18;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
@@ -434,6 +434,15 @@ p.breakBefore{margin-top:2em;}
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
+  margin-bottom: 10px;
+}
+.resume .resume-item h6 {
+  line-height: 18px;
+  font-size: 19px;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
   margin-bottom: 10px;
 }
 .resume .resume-item ul {
@@ -938,7 +947,7 @@ p.breakBefore{margin-top:2em;}
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 220px;
+  width: 300px;
   z-index: 9999;
   background: #040b14;
 }
