@@ -1,1 +1,1 @@
-It is 800 x 427, ratio of 1.87353
+It is 800 x 427, ratio of 1.87353. Made it wide using canvas resize tool in gimp.
